@@ -13,9 +13,6 @@ function User({ user,onRemove, onToggle }){
     };
   },[user]);
 
-
-
-
   return (
     <div>
       <b
@@ -31,6 +28,7 @@ function User({ user,onRemove, onToggle }){
 
 
 function UserList({ users, onRemove, onToggle }) {
+
   return (
     <div>
       { users.map(user => (
